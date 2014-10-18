@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+
+<link href='http://fonts.googleapis.com/css?family=Original+Surfer' rel='stylesheet' type='text/css'>
+	
+
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script type='text/javascript' src="jsgraphics.js"></script>
+<script type='text/javascript' src="game.js"></script>
+
+	<link rel='stylesheet' type='text/css' href="stylesheet.css">
+
+
+
+ </head>
+
+
+
+   <body onload="loadIntro()">
+
+
+
+<canvas id="introscreen" class="intro" ></canvas>
+
+<p id="title" class="intro"> Satellite Dish Game</p>
+
+<div id="start" class="intro" onclick="startUp()">START!</div>
+
+<canvas id="gamescreen" class="game" width="700" height="700" >
+<audio id="audiotag1" src="music.mp3" preload="auto"></audio>
+</canvas>
+
+
+
+<script type="text/javascript">
+
+</script>
+						
+<p id="timertitle" class="game">Time left:</p>
+<div id="timer" class="game"></div>
+
+<p id="scoretitle" class="game">Dishes fixed:</p>
+<div id="score" class="game"></div>
+
+
+<pre id="log" class="game" style="border: 1px solid #ccc;"></pre>
+	
+		<img id="redsatdish" src="redsatdish.png" style="display:none" />
+		<img id="greensatdish" src="greensatdish.png" style="display:none" />
+		<img id="targetsym" src="target.jpg" style="display:none" />
+	
+
+<div id="gameover" >Game over.. you scored </div>
+
+
+    </body>
+</html>
+
+
+
+
+
+h

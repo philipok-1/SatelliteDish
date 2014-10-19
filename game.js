@@ -52,7 +52,7 @@ if (collision(posx-30, posy-30, 15, item.x, item.y, 2))
 
 
 ctx.drawImage(greensatdish, posx-30, posy-30, 60,60);
-
+targets=[]
 score+=1;
 flag=true;
 
@@ -61,6 +61,7 @@ else {
 
 
 ctx.drawImage(redsatdish, posx-30, posy-30, 60,60);
+score=0;
 flag=false;
 }
 };

@@ -2,7 +2,7 @@ html {font-family: "Original Surfer", cursive; font-size: 20px;}
 
 body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
-#introscreen {position: fixed; background-image:url("sat_guy.jpg");background-size:contain; background-repeat: no-repeat;}
+#introscreen {position: fixed; background-image:url("satguy.png");background-size:contain; background-repeat: no-repeat;}
 
 #gamescreen {position: fixed; padding: 5px; visibility:hidden; background-image:url("160788863.png");background-size:contain; background-repeat: no-repeat;}
 

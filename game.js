@@ -38,7 +38,7 @@ checkPlacement(evt.pageX, evt.pageY);
 function checkPlacement(posx,posy){
 
 
-document.getElementById("score").innerHTML=(score);
+
 
   var el = document.getElementById("gamescreen");
   var ctx = el.getContext("2d");
@@ -118,7 +118,7 @@ var target1=new TargetIcon();
 targets.push(target1);
 flag=false;
 }
-
+document.getElementById("score").innerHTML=(score);
 };
 
 function placeTarget(posx,posy){

@@ -105,7 +105,7 @@ function TargetIcon(){
 this.fixed=false;
 this.life=5;
 this.x=randomInt(10,650);
-this.y=randomInt(10,650);
+this.y=randomInt(10,600);
 
 this.draw=placeTarget(this.x, this.y);
 

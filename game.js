@@ -6,6 +6,7 @@
 
 function loadIntro(){
 
+switchScreen("intro", "end")
 switchScreen("intro", "game")
 
 switchBG()
@@ -164,6 +165,8 @@ function collision (p1x, p1y, r1, p2x, p2y, r2) {
 }
 
 function gameOver(){
+
+switchScreen("end", "game")
 
   var el = document.getElementById("gameover");
 

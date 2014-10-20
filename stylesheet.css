@@ -24,6 +24,6 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #random {position: fixed;top: 200px; right: 45px; color: white;font-size:30px; visibility:hidden}
 
-#gameover  {position: fixed;top: 200px; right: 300px; width: 200px; height: 200px;color: white;font-size:30px; visibility:hidden; display:block; text-align:centerline; background-color: blue}
+#gameover  {position: fixed;top: 200px; right: 300px; width: 200px; height: 200px;background-image:url("bubble.png"); color: blue;font-size:30px; visibility:hidden; display:block; text-align:centerline; background-color: blue}
 
 #bubble {position: fixed; top: 200px; right: 300px;visibility: hidden;}

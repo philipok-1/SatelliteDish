@@ -14,9 +14,9 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #timer {position: fixed; top:160px; right: 45px; font-size:40px; color:white; visibility: hidden}
 
-#scoretitle {position: fixed; top:250px; right: 45px; font-size:30px; color:white; visibility: hidden}
+#scoretitle {position: fixed; top:250px; right: 45px; font-size:40px; color:white; visibility: hidden}
 
-#score {position: fixed; top:400px; right: 45px; font-size:30px; color:white; visibility: hidden}
+#score {position: fixed; top:350px; right: 45px; font-size:50px; color:white; visibility: hidden}
 
 #start {position: fixed; top: 50%; right:10%; font-family: "Original Surfer"; font-size: 60px; background-color: red; color: white}
 

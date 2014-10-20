@@ -173,7 +173,7 @@ switchScreen("end", "game")
 el.style.visibility="visible";
 el.innerHTML="Game over! </br> You scored "+score;
 
- var timeEnd=window.setTimeout(loadIntro,7000)
+// var timeEnd=window.setTimeout(loadIntro,7000)
 }
 
 function clearCanvas(){

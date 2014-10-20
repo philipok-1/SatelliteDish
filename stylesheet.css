@@ -6,7 +6,7 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #gamescreen {position: fixed; padding: 5px; visibility:hidden; background-image:url("160788863.png");background-size:contain; background-repeat: no-repeat;}
 
-#endscreen {position: fixed; background-image:url("satguy.png");background-size:contain; background-repeat: no-repeat;}
+#endscreen {position: fixed; top: 200px; background-image:url("satguy.png");background-size:contain; background-repeat: no-repeat;}
 
 #log {position: fixed; top:30px; right:50px}
 
@@ -24,7 +24,7 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #random {position: fixed;top: 200px; right: 45px; color: white;font-size:30px; visibility:hidden}
 
-#gameover  {position: fixed;top: 350px; right: 100px; width: 575px; height: 399px;text-align: center; color: blue;font-size:25px; visibility:hidden;  }
+#gameover  {position: fixed;top: 250px; right: 50px; width: 575px; height: 399px;text-align: center; color: blue;font-size:25px; visibility:hidden;  }
 
 
-#bubble  {position: fixed;top: 150px; right: 100px; width: 575px; height: 399px; visibility:hidden;  }
+#bubble  {position: fixed;top: 50px; right: 50px; width: 575px; height: 399px; visibility:hidden;  }

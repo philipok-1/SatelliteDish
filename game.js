@@ -94,7 +94,7 @@ targetPlace=setInterval("createTarget()", 20);
 
 document.getElementById("score").innerHTML=(score);
 
-play_single_sound();
+//play_single_sound();
 
 }
 

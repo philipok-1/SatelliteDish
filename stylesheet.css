@@ -24,7 +24,7 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #random {position: fixed;top: 200px; right: 45px; color: white;font-size:30px; visibility:hidden}
 
-#gameover  {position: fixed;top: 200px; right: 300px; width: 575px; height: 399px;text-align: center; color: blue;font-size:30px; visibility:hidden;  }
+#gameover  {position: fixed;top: 400px; right: 200px; width: 575px; height: 399px;text-align: center; color: blue;font-size:30px; visibility:hidden;  }
 
 
-#bubble  {position: fixed;top: 200px; right: 300px; width: 575px; height: 399px; visibility:hidden;  }
+#bubble  {position: fixed;top: 200px; right: 200px; width: 575px; height: 399px; visibility:hidden;  }

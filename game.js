@@ -171,7 +171,7 @@ switchScreen("end", "game")
   var el = document.getElementById("gameover");
 
 el.style.visibility="visible";
-el.innerHTML="game over.. score="+score;
+el.innerHTML="Game over! You scored "+score;
 
  var timeEnd=window.setTimeout(loadIntro,7000)
 }

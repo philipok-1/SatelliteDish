@@ -6,6 +6,8 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #gamescreen {position: fixed; padding: 5px; visibility:hidden; background-image:url("160788863.png");background-size:contain; background-repeat: no-repeat;}
 
+#endscreen {position: fixed; background-image:url("satguy.png");background-size:contain; background-repeat: no-repeat;}
+
 #log {position: fixed; top:30px; right:50px}
 
 #timertitle {position: fixed; top:80px; right: 45px; font-size:40px; color:white; visibility: hidden}

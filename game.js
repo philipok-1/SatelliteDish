@@ -183,7 +183,7 @@ else {comment="Not bad!"}
   var el = document.getElementById("gameover");
 
 el.style.visibility="visible";
-el.innerHTML="game over..</br> you scored"+score+"</br>"+comment;
+el.innerHTML="game over..</br> you scored "+score+"</br>"+comment;
 
 
 // var timeEnd=window.setTimeout(loadIntro,7000)

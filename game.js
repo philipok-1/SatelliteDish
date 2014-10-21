@@ -169,17 +169,21 @@ function gameOver(){
 switchScreen("end", "game")
 comment="";
 
-if (score==0){comment="That's terrible!"}
+if (score==0){comment="Zero?? That's terrible!"}
 
-else if (score==1){comment="Pretty bad..."}
+else if (score==1){comment="Oh man!"}
 
-else {comment="average"}
+else if (score>1 && score<5){comment="Not great.."}
+
+else if (score>=5 && score<10){comment="Average..."}
+
+else {comment="Not bad!"}
 
 
   var el = document.getElementById("gameover");
 
 el.style.visibility="visible";
-el.innerHTML="game over.. score="+score+"</br>"+comment;
+el.innerHTML="game over..</br> you scored"+score+"</br>"+comment;
 
 
 // var timeEnd=window.setTimeout(loadIntro,7000)

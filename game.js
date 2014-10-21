@@ -167,11 +167,20 @@ function collision (p1x, p1y, r1, p2x, p2y, r2) {
 function gameOver(){
 
 switchScreen("end", "game")
+comment="";
+
+if (score==0){comment="That's terrible!"}
+
+else if (score==1){comment="Pretty bad..."}
+
+else {comment="average"}
+
 
   var el = document.getElementById("gameover");
 
 el.style.visibility="visible";
-el.innerHTML="Game over! </br> You scored "+score;
+el.innerHTML="game over.. score="+score+"</br>"+comment;
+
 
 // var timeEnd=window.setTimeout(loadIntro,7000)
 }

@@ -6,7 +6,7 @@ body {background-color: gray;height: 100%; width: 100%;overflow: hidden}
 
 #gamescreen {position: fixed; padding: 5px; visibility:hidden; background-image:url("160788863.png");background-size:contain; background-repeat: no-repeat;}
 
-#endscreen {position: fixed; top: 250px; background-image:url("satguy.png");background-size:contain; background-repeat: no-repeat;}
+#endscreen {position: fixed; top: 250px; background-image:url("satguy.png");background-size:contain; background-repeat: no-repeat;visibility:hidden}
 
 #log {position: fixed; top:30px; right:50px}
 

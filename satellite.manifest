@@ -15,4 +15,5 @@ redsatdish.png
 target.jpg
 satguy.png
 
+@font-face{font-family:'Original Surfer';font-style:normal;font-weight:400;src:local('Original Surfer'),local('OriginalSurfer-Regular'),url(http://fonts.gstatic.com/s/originalsurfer/v5/gdHw6HpSIN4D6Xt7pi1-qLvSN6Au6P888YiYK1JsL0Q.woff) format('woff');}
 

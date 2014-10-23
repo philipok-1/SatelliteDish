@@ -181,9 +181,9 @@ else if (score>=10 && score<15){comment="Not bad!.."}
 
 else if (score>=15 && score<20){comment="Very good!"}
 
-else if (score>=20 && score<24){comment="Master satellite <\br> engineer!"}
+else if (score>=20 && score<24){comment="Master satellite </br> engineer!"}
 
-else {comment="oh my goodness <\br> Amazing!"}
+else {comment="oh my goodness </br> Amazing!"}
 
 
   var el = document.getElementById("gameover");

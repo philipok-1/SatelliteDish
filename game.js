@@ -173,11 +173,17 @@ if (score==0){comment="Zero?? That's terrible!"}
 
 else if (score==1){comment="Oh man!"}
 
-else if (score>1 && score<5){comment="Not great.."}
+else if (score>1 && score<5){comment="What happened??."}
 
 else if (score>=5 && score<10){comment="Average..."}
 
-else {comment="Not bad!"}
+else if (score>=10 && score<15){comment="Not bad!.."}
+
+else if (score>=15 && score<20){comment="Very good!"}
+
+else if (score>=20 && score<24}comment="Master satellite engineer!"}
+
+else {comment="oh my goodness... Amazing!"}
 
 
   var el = document.getElementById("gameover");
